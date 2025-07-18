@@ -143,13 +143,3 @@ This project welcomes contributions! Whether you want to:
 - Add new special collections
 
 Feel free to open issues and submit pull requests.
-
-## 📄 License
-
-This project is built with [Lovable](https://lovable.dev) - an AI-powered web development platform.
-
----
-
-*"Books are a uniquely portable magic" - Stephen King*
-
-Transform your reading journey with MoodReads Book Alchemy - where every emotion finds its perfect story.
