@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					soft: 'hsl(var(--primary-soft))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -42,7 +43,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					bright: 'hsl(var(--accent-bright))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -51,6 +53,14 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				mood: {
+					happy: 'hsl(var(--mood-happy))',
+					sad: 'hsl(var(--mood-sad))',
+					romantic: 'hsl(var(--mood-romantic))',
+					adventurous: 'hsl(var(--mood-adventurous))',
+					anxious: 'hsl(var(--mood-anxious))',
+					nostalgic: 'hsl(var(--mood-nostalgic))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

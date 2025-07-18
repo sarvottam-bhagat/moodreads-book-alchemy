@@ -2,41 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* MoodReads Design System - Cozy, warm colors with pastel highlights */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Warm neutral base */
+    --background: 32 20% 98%;
+    --foreground: 25 10% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Cozy card system */
+    --card: 35 25% 96%;
+    --card-foreground: 25 10% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 25% 96%;
+    --popover-foreground: 25 10% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Warm peach primary inspired by books */
+    --primary: 15 85% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 15 65% 88%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Soft secondary in warm grey */
+    --secondary: 30 15% 92%;
+    --secondary-foreground: 25 10% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted warm tones */
+    --muted: 28 20% 94%;
+    --muted-foreground: 25 8% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Pastel blue accent for mood elements */
+    --accent: 210 45% 88%;
+    --accent-foreground: 210 15% 25%;
+    --accent-bright: 210 65% 75%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Mood color palette */
+    --mood-happy: 50 95% 75%;
+    --mood-sad: 220 45% 75%;
+    --mood-romantic: 340 65% 80%;
+    --mood-adventurous: 25 75% 70%;
+    --mood-anxious: 280 35% 80%;
+    --mood-nostalgic: 35 45% 78%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Warm destructive */
+    --destructive: 0 75% 65%;
+    --destructive-foreground: 0 0% 100%;
 
-    --radius: 0.5rem;
+    /* Soft borders and inputs */
+    --border: 30 25% 88%;
+    --input: 30 25% 90%;
+    --ring: 15 85% 65%;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
